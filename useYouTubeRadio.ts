@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { PlayerStatus } from '../types';
-import { PLAYLIST_ID } from '../data/tracks';
+import { PLAYLIST_ID } from './tracks';
 
 declare global {
   interface Window {
