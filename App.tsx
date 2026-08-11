@@ -9,14 +9,14 @@ import { NOSTALGIA_TRACKS } from './tracks';
 import { cleanTrackInfo } from './utils/formatters';
 
 import { Header } from "./Header";
-import { RadioDial } from './components/RadioDial';
+import { RadioDial } from './RadioDial';
 import { CentralRadioDisplay } from "./CentralRadioDisplay";
-import { NowPlayingCard } from './components/NowPlayingCard';
-import { PlaybackControls } from './components/PlaybackControls';
-import { TracklistDrawer } from './components/TracklistDrawer';
-import { MemoryCards } from './components/MemoryCards';
-import { SleepTimerModal } from './components/SleepTimerModal';
-import { Footer } from './components/Footer';
+import { NowPlayingCard } from './NowPlayingCard';
+import { PlaybackControls } from './PlaybackControls';
+import { TracklistDrawer } from './TracklistDrawer';
+import { MemoryCards } from './MemoryCards';
+import { SleepTimerModal } from './SleepTimerModal';
+import { Footer } from './Footer';
 
 export default function App() {
   const containerId = 'awaara-yt-player';
