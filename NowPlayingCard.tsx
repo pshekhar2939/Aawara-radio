@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { Radio, Music, Film, Calendar, AlertCircle } from 'lucide-react';
-import { formatTime } from '../utils/formatters';
+import { formatTime } from './formatters';
 import { Track, PlayerStatus } from '../types';
 
 interface NowPlayingCardProps {
