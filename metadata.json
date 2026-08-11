@@ -1,0 +1,6 @@
+{
+  "name": "AWAARA 90s Radio",
+  "description": "An Indian 90s nostalgia radio station streaming timeless classics with an elegant vintage radio aesthetic and live playback controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
