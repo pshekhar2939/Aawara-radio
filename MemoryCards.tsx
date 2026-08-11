@@ -1,5 +1,5 @@
 import React from 'react';
-import { NOSTALGIA_NOTES } from '../data/tracks';
+import { NOSTALGIA_NOTES } from "./tracks";
 import { Sparkles, Disc } from 'lucide-react';
 
 export const MemoryCards: React.FC = () => {
