@@ -5,9 +5,9 @@
 
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { useCallback, useEffect, useMemo, useState } from 'react';
+
 import { NOSTALGIA_TRACKS } from './tracks';
-import { cleanTrackInfo } from './utils/formatters';
+import { cleanTrackInfo } from './formatters';
 
 import { Header } from "./Header";
 import { RadioDial } from './RadioDial';
@@ -58,7 +58,7 @@ export default function App() {
     setVolume,
     toggleMute,
     playTrackAtIndex,
-  } = useYouTubeRadio(containerId);
+  import { useYouTubeRadio } from './useYouTubeRadio';
 
   // Save favorites to localStorage
   const handleToggleFavorite = useCallback((trackId: string) => {
