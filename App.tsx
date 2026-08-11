@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import { useYouTubeRadio } from './hooks/useYouTubeRadio';
+import { useYouTubeRadio } from './useYouTubeRadio';
 import { NOSTALGIA_TRACKS } from './data/tracks';
 import { cleanTrackInfo } from './utils/formatters';
 
