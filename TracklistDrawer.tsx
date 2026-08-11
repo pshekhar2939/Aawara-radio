@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { X, Play, Music, Film, Calendar, Search, Heart } from 'lucide-react';
 import { Track } from '../types';
-import { NOSTALGIA_TRACKS } from '../data/tracks';
+import { NOSTALGIA_TRACKS } from './tracks';
 
 interface TracklistDrawerProps {
   isOpen: boolean;
