@@ -10,7 +10,7 @@ import { cleanTrackInfo } from './utils/formatters';
 
 import { Header } from "./Header";
 import { RadioDial } from './components/RadioDial';
-import { CentralRadioDisplay } from './components/CentralRadioDisplay';
+import { CentralRadioDisplay } from "./CentralRadioDisplay";
 import { NowPlayingCard } from './components/NowPlayingCard';
 import { PlaybackControls } from './components/PlaybackControls';
 import { TracklistDrawer } from './components/TracklistDrawer';
