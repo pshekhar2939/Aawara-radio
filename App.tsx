@@ -5,7 +5,7 @@
 
 
 import { useYouTubeRadio } from './useYouTubeRadio';
-import { NOSTALGIA_TRACKS } from './data/tracks';
+import { NOSTALGIA_TRACKS } from './tracks';
 import { cleanTrackInfo } from './utils/formatters';
 
 import { Header } from './components/Header';
